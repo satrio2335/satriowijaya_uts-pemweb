@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 10%;
+    background: rgba(34, 139, 34, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-size: 24px;
+    color: white;
+}
+.logo span {
+    color: yellowgreen;
+}
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+.navbar a:hover,
+.navbar a.active {
+    color: yellowgreen;
+}
+.contact {
+    padding: 8px 20px;
+    background-color: white;
+    color: green;
+    border-radius: 5px;
+}
+.contact:hover {
+    background-color: yellowgreen;
+    color: white;
+}
+.home {
+    background: url('images/farm-background.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+.home-content h3 {
+    color: white;
+}
+.home-content h1 {
+    font-size: 50px;
+    color: yellowgreen;
+}
+.btn-box .btn-1,
+.btn-box .btn-2 {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-box .btn-1:hover {
+    background-color: yellowgreen;
+}
+.about, .products, .contact-form {
+    padding: 50px 10%;
+}
+.about-content .heading {
+    color: green;
+}
+.products {
+    background: #f8f8f8;
+    text-align: center;
+}
+.product-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+.product-box img {
+    width: 100%;
+    border-radius: 8px;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+.footer-content h3 {
+    color: yellowgreen;
+}
+.footer-content p {
+    font-size: 16px;
+}
+.footer-bottom p {
+    font-size: 14px;
+    color: #bbb;
+}
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+}
+.social-icons a:hover {
+    color: yellowgreen;
+}
